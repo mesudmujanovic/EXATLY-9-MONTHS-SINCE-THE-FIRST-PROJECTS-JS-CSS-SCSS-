@@ -1,0 +1,37 @@
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: cadetblue;
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 20px;
+
+    h2{
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    } 
+
+    textarea{
+    width: 100%;
+    user-select: none;
+    outline: none;
+    resize: none;
+    }
+
+    .counter{
+        display: flex;
+        justify-content: space-between;
+
+        .remaing{
+            color: yellow;
+        }
+    }
+}

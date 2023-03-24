@@ -1,0 +1,23 @@
+body {
+  background-color: gray; }
+
+.container {
+  background-color: #0c3e0c;
+  max-width: 600px;
+  margin: 240px auto;
+  text-align: center;
+  padding: 40px; }
+
+.time {
+  color: white;
+  font-size: 40px; }
+
+.dugmad button {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: aqua;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

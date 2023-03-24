@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./notes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-brand navbar-light bg-light">
+                <div class="col-3 py-5">
+                    <h2 class="notes-view">Moj zadatak</h2>
+                </div>
+                <div class="col-3">
+                    <input type="search" name="search" class="form-control" placeholder="search">
+                </div>
+                <div class="col-3">
+                    <button id="add-note" class="btn btn-warning form-control">Dodaj</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="container">
+            <div class="mainView">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="addNote">
+        <div class="container">
+            <div class="addNoteView">
+                <div class="col-4 py-5">
+                <div class="card">
+                    <div class="card-hedaer text-center py-3">
+                        <input type="text" name="title" placeholder="Unesite naslov" class="form-control">
+                    </div>
+                    <div class="card-header calc-2 text-center py-3">
+                        <div class="col-6">
+                            <input type="date" name="date" format="dd/mm/yyyy/" class="form-control">            
+                        </div>
+                        <div class="col-5">
+                            <input type="time" name="time" twelvehour="true" class="form-control">            
+                        </div>
+                    </div>
+                    <div class="card-body py-3">
+                     <textarea name="text-area" id="text-area" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="card-footer py-3">
+                      <div class="col-12">
+                        <button class="btn btn-warning form-control" id="save-btn" >Dodaj</button>
+                      </div>
+                    </div>
+                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./db.js"></script>
+<script src="./notes.js"></script>
+
+</html>

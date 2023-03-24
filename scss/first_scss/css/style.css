@@ -1,0 +1,23 @@
+body {
+  background-color: #807d7d; }
+
+.section-a {
+  color: aqua; }
+  .section-a h3 {
+    color: red; }
+  .section-a p {
+    color: aquamarine; }
+    .section-a p a {
+      text-decoration: none; }
+
+.section-b {
+  display: flex;
+  flex-direction: row; }
+  .section-b h3 {
+    color: green; }
+  .section-b p {
+    color: yellow; }
+    .section-b p a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
