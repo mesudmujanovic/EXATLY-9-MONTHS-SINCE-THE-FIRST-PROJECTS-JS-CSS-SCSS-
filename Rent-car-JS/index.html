@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <label for="cars">Izaberite Automobil</label>
+          <select name="cars" id="cars">
+            <option value="">Automobili:</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="hyndai">Hyndai</option>
+            <option value="mercedes">Mercedes</option>
+          </select>
+        </div>
+        <div class="column">
+          <label for="date-1">Pocetni datum</label>
+          <input type="date" id="date-1" />
+        </div>
+        <div class="column">
+          <label for="date-2">Zavrsni datum</label>
+          <input type="date" id="date-2" />
+        </div>
+      </div>
+      <div class="butt">
+        <button id="submit">Izracunaj</button>
+        <div id="output">Izaberite automobil i datum</div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
